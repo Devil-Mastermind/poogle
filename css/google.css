@@ -68,3 +68,153 @@ nav button:hover{
     display: block;
     margin: auto auto;
 }
+
+.search-box{
+    margin-left: 465px;
+    
+    position: relative;
+    margin-top: -40px;
+    text-align: center;
+
+}
+
+.s-box{
+    display: block;
+    border: 1px solid #ddd;
+    border-radius: 1px;
+    color: rgb(0, 0, 0, 0.8);
+    font-size: 13px;
+    width: 600px;
+    height: 50px;
+    padding: 13px;
+    border-radius: 30px;
+    outline: none;
+    
+
+}
+
+.s-box:hover{
+    border: 1px solid rgba(0, 0, 0, 0.6);
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
+    
+}
+
+.search-icon{
+    position: absolute;
+    width: 18px;
+    opacity: .8;
+    top: 17px;
+    left: 16px;
+
+}
+.mic{
+    position: absolute;
+    width: 15px;
+    opacity: .8;
+    top: 15px;
+    left: 563px;
+}
+
+.submit{
+    height: 40px;
+    width: 140px;
+    border: none;
+    background-color: rgba(230, 230, 230, 0.3);
+    border-radius: 3px;
+    padding: 10px 15px;
+    margin-top: 15px;
+    margin: 15px 10px;
+    position: absolute;
+    right: 70%;
+    cursor: pointer;
+}
+
+#submit2{
+    right: 55%;
+}
+
+.submit:hover{
+    background-color: rgba(230, 230, 230, 1);
+    border: 1px solid rgba(0, 0, 0, 0.06);
+}
+
+.language{
+    margin-top: 100px;
+    font-size: 13px;
+
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.language-item{
+    padding: 5px;
+}
+.language-item:hover{
+    text-decoration: underline;
+}
+
+h4{
+    background-color: rgba(230, 230, 230, 0.5);
+    height: 50px;
+    font-weight: normal;
+    padding: 15px;
+    color: rgba(0, 0, 0, 0.7);
+    cursor: text;
+}
+
+hr{
+
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.links{
+    background-color: rgba(230, 230, 230, 0.5);
+    height: 50px;
+    font-weight: normal;
+    padding: 15px;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.link-1{
+    text-decoration: none;
+    padding: 3px 5px;
+    
+}
+
+.link-1 a{
+    margin-left: 14px;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.link-1 a:hover{
+    text-decoration: underline;
+}
+
+#about{
+    margin-left: -5px;
+}
+
+
+
+.link-2 a{
+    margin-left: 14px;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.link-2 a:hover{
+    text-decoration: underline;
+}
+
+#privacy{
+    margin-left: 890px;
+    margin-top: -20px;
+}
+
+.links div{
+    display: inline-block;
+}
